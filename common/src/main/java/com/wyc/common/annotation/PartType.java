@@ -1,0 +1,31 @@
+package com.wyc.common.annotation;
+
+public enum PartType {
+    BEIWEEN,
+    IS_NOT_NULL,
+    IS_NULL,
+    LESS_THAN,
+    LESS_THAH_EQUAL,
+    GREATER_THAN,
+    GREATER_THAN_EQUAL,
+    BEFORE,
+    AFTER,
+    NOT_LIKE,
+    LIKE,
+    STARTING_WITH,
+    ENDING_WITH,
+    IS_NOT_EMPTH,
+    IS_EMPTH,
+    NOT_CONTAINING,
+    CONTAINING,
+    NOT_IN,
+    IN,
+    NEAR,
+    WITHIN,
+    REGEX,
+    EXISIS,
+    TRUE,
+    FALSE,
+    NEGATING_SIMPLE_PROPERTY,
+    SIMPLE_PROPERTY
+}
